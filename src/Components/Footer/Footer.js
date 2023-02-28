@@ -36,9 +36,7 @@ function Footer() {
         <div>
         </div>
       </div>
-      <div className="footer">
-        <p>Other Campus - VIT - Amravati - Vellore - Chennai</p>
-      </div>
+      
     </div>
   );
 }
