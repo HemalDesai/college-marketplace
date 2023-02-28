@@ -43,7 +43,7 @@ function Banner() {
           </div>
         </div>
         <div className="banner">
-          <img src="https://source.unsplash.com/970x240/?college,marketplace" alt="" />
+          <img src="https://i.ibb.co/cXvnhnT/deeeeeee.jpg" alt="" />
         </div>
       </div>
      { category!=null && <DynamicPosts category={category}/>  }

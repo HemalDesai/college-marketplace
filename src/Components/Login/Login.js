@@ -10,7 +10,7 @@ function Login() {
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
   let [loading,setLoading]=useState(false)
-  document.body.style.backgroundColor = "#28282B"
+  // document.body.style.backgroundColor = "#28282B"
   const history = useHistory()
   const handleSubmit = (e) => {
     setLoading(true)

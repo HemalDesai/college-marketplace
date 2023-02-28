@@ -58,7 +58,7 @@ function Header() {
         <div className="brandName">
           <SellItLogo></SellItLogo>
         </div>
-        <div className="placeSearch">
+        {/* <div className="placeSearch">
           <input type="text" 
           placeholder="Search specific product..."
           value={wordEntered}
@@ -80,15 +80,15 @@ function Header() {
         </div>
       )}
          
-        </div>
+        </div> */}
         <div className="productSearch">
           <Search />
         </div>
         
-        <div className="language">
+        {/* <div className="language">
           <span> ENGLISH </span>
           <Arrow></Arrow>
-        </div>
+        </div> */}
         <div className="loginPage">
           {user ? (
             user.displayName
