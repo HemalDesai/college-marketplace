@@ -1,11 +1,12 @@
 .bannerParentDiv {
   padding-top: 4em;
+  /* cursor: pointer; */
 } 
 
 .bannerParentDiv .bannerChildDiv .menuBar {
   display: flex;
   padding: 10px 16px 10px 16px;
-  background-color: #D2DAFF;
+  background-color: #c3e6eb;
 }
 
 
@@ -13,10 +14,11 @@
 .bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
   margin-right: 16px;
   font-weight: bolder;
+  /* cursor: pointer; */
 }
 
 
-.bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
+.bannerParentDiv .bannerChildDiv .menuBar .to_point span {
   padding: 10px;
 }
 
@@ -34,10 +36,16 @@
   }
   .bannerChildDiv .banner {
     position: relative;
+    /* cursor: pointer; */
   }
 }
 
-.otherQuickOptions span{
+.to_point span{
   cursor: pointer;
   
+}
+
+
+.ss1{
+  cursor: pointer;
 }

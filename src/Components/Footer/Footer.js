@@ -5,7 +5,8 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footerParentDiv">
-      <div className="content">
+      
+      {/* <div className="content">
         <div>
           <div className="heading">
             <p>POPULAR LOCATIONS</p>
@@ -14,9 +15,6 @@ function Footer() {
             <ul>
               <li>Block-1</li>
               <li>Block-2</li>
-              <li>Girls Hostel</li>
-              <li>Block-3</li>
-              <li>Block-4</li>
             </ul>
           </div>
         </div>
@@ -26,16 +24,16 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-              <li>About Sellit</li>
-              <li>Careers</li>
+              <li>About Sellit</li> */}
+              {/* <li>Careers</li>
               <li>Contact Us</li>
-              <li>Members</li>
-            </ul>
+              <li>Members</li> */}
+            {/* </ul>
           </div>
         </div>
         <div>
         </div>
-      </div>
+      </div> */}
       
     </div>
   );

@@ -7,6 +7,7 @@ function Banner() {
   let [category, setCategory] = useState();
   
   return (
+    <div>
     <div className="bannerParentDiv">
       <div className="bannerChildDiv">
         <div className="menuBar">
@@ -19,19 +20,19 @@ function Banner() {
             >
               {" "}
               <option value="null">ALL CATEGORIES</option>
-              <option value="Medicines">Medicines</option>
-              <option value="Shoes">Shoes</option>
+              <option value="Medicines">Sports</option>
+              <option value="Shoes">Footwear</option>
               <option value="Electronics">Electronics</option>
-              <option value="Clothes">Clothes</option>
+              <option value="Clothes">Fashion</option>
               <option value="Food">Food</option>
-              <option value="Consumables">Consumables</option>
+              <option value="Consumables">Appliances</option>
               <option value="Beauty">Beauty</option>
 
 
             </select>
           </div>
-          <div className="otherQuickOptions">
-            <span onClick={()=>setCategory("Medicines")}>Medicines</span>
+          {/* <div className="to_point">
+            <span className="ss1" onClick={()=>setCategory("Medicines")}>Sports</span>
             <span onClick={()=>setCategory("Shoes")}>Shoes</span>
             <span onClick={()=>setCategory("Electronics")}>Electronics</span>
             <span onClick={()=>setCategory("Clothes")}>Clothes</span>
@@ -40,13 +41,14 @@ function Banner() {
             <span onClick={()=>setCategory("Beauty")}>Beauty</span>
 
 
-          </div>
+          </div> */}
         </div>
         <div className="banner">
           <img src="https://i.ibb.co/cXvnhnT/deeeeeee.jpg" alt="" />
         </div>
       </div>
      { category!=null && <DynamicPosts category={category}/>  }
+    </div>
     </div>
   );
 }

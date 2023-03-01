@@ -66,12 +66,12 @@ const Create = () => {
           }}
           className="input"
         > <option >Select Category</option>
-          <option value="Medicines">Medicines</option>
-          <option value="Shoes">Shoes</option>
+          <option value="Medicines">Sports</option>
+          <option value="Shoes">Footwear</option>
           <option value="Electronics">Electronics</option>
-          <option value="Clothes">Clothes</option>
+          <option value="Clothes">Fashion</option>
           <option value="Food">Food</option>
-          <option value="Consumables">Consumables</option>
+          <option value="Consumables">Appliances</option>
           <option value="Beauty">Beauty</option>
 
          </select>
@@ -86,10 +86,8 @@ const Create = () => {
         > <option >Select Hostel</option>
           <option value="Block-1">Block-1</option>
           <option value="Block-2">Block-2</option>
-          <option value="Block-3">Block-3</option>
-          <option value="Girls">Girls</option>
-          <option value="Block-4">Block-4</option>
-        </select>
+          
+                  </select>
         <br/> 
         <label>Price</label>
         <br />
@@ -133,7 +131,7 @@ const Create = () => {
         />
         <br />
         <button className="uploadBtn" onClick={handleSubmit}>
-          upload and Submit
+          Upload and Submit
         </button>
       </div> 
     </Fragment>
